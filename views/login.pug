@@ -1,0 +1,31 @@
+
+extends base.pug
+
+block script
+  include ../static/index.js
+
+
+block style
+  style
+    include ../static/login.css
+    include ../static/navbar.css
+   
+
+
+//- Body contant 
+    
+block contant
+        
+  div.container
+
+    i.material-icons#account_icon account_circle
+    h1 Login
+    form(action="/login", method="post",autocomplete="off", class="myclass")
+      input(type="email", class="myinput", required="required", name="email",placeholder="Enter your emaill"  autocomplete ="off")
+      i.material-icons email
+      input(type="password", class="myinput", required="required", name="password",placeholder="Enter your password" autocomplete ="off")
+      i.material-icons lock
+      button(class="btn btn1")
+        |LOGIN
+
+          

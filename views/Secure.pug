@@ -1,0 +1,56 @@
+doctype html
+
+html
+    head
+        script
+          include ../static/index.js
+
+        style
+          include ../static/style.css
+          include ../static/navbar.css 
+
+         
+    body
+      .section
+
+        
+       
+        nav#navbar
+          h1
+           | Secret Chat Application
+
+
+          ul          
+
+            li #[a(href="/") Home]
+            li #[a(href="/Secure") Secure]
+            li #[a(href="/logout") Logout]
+
+
+            
+            
+        .container
+          
+          .message.receivemessage
+            | User : This is Web Chat application design
+            
+                                        
+          .message.mymessage
+             | You : this is a message. reply me for more conversation 
+            
+                 
+          #sendmessage
+            form#send-container(action="#", ,)
+              rect#messageinp
+              #sendbutton
+                svg.button_rectangle
+                  rect#button_rectangle(rx="22.5", ry="22.5", x="0", y="0", width="45", height="45").
+                    
+                    
+                svg.button_path(viewBox="-1454.986 433.867 20 20")
+                  path#button_path(d="M -1454.98583984375 433.8670349121094 L -1454.98583984375 441.5119323730469 L -1446.659790039063 442.6982116699219 L -1454.98583984375 444.0025024414063 L -1454.98583984375 453.8670349121094 L -1434.98583984375 442.6982116699219 L -1454.98583984375 433.8670349121094 Z").
+                    
+                    
+
+     
+            

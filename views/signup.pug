@@ -1,0 +1,35 @@
+extends base.pug
+
+block script
+  include ../static/index.js
+
+block style
+  style
+    include ../static/signup.css
+    include ../static/navbar.css
+
+
+    
+//- Body contant
+
+block contant
+        
+  div.container
+            
+    h1 Create Account
+    form(action="/register", method="post",autocomplete="off", class="myclass")
+      input(type="name", class="myinput", required="required", name="name",  placeholder="Enter your name"  autocomplete ="off" )
+      i.material-icons person
+      input(type="email", class="myinput", required="required", name="email",placeholder="Enter your emaill"  autocomplete ="off")
+      i.material-icons email
+      input(type="password", class="myinput", required="required", name="password",placeholder="Create a password"  autocomplete ="off")
+      i.material-icons lock
+      input(type="password", class="myinput", required="required", name="confirmpassword",placeholder="Confirm your password"  autocomplete ="off")
+      i.material-icons lock
+      button(class="btn btn1")
+        |SIGN UP
+      
+
+    
+
+    

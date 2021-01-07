@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+.section {
+    position: absolute;
+    background-color: #aaa;
+    width: 100%;
+    height: -webkit-fill-available;
+    overflow-y: auto;
+    padding-bottom: 70px;
+
+}
+
+
+    /* NAVBAR */
+
+#navbar{
+    display: flex;
+    justify-content: center;
+}    
+
+
+
+h1 {
+   
+
+    position: absolute;
+    overflow: visible;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20Px;
+    margin: revert;
+    color: rgba(255,255,255,1);
+    text-transform: capitalize;
+}
+       /*  */
+
+
+       
+
+
+
+.container {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 121px;
+    margin-bottom: 20px;
+   
+}
+
+
+
+
+.receivemessage {
+
+    float: left;
+    clear: both;
+    width: fit-content;
+    background: #9125e4;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(236,239,241,1);
+    padding: 10px;
+    margin-left: 16px;
+    margin-right: 40%;
+    margin-top: 5px;
+    border-radius: 0px 15px 0px 15px;
+
+   
+}
+
+
+
+
+.mymessage {
+   
+    float: right;
+    clear: both;
+    width: fit-content;
+    background-color:  rgba(225,12,137,1);
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(236,239,241,1);
+    padding: 10px;
+    margin-right: 16px;
+    margin-left: 40%;
+    margin-top: 5px;
+    border-radius: 15px 0px 15px 0px;
+
+}
+
+
+
+
+
+
+#sendmessage {
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    bottom: 20px;
+    text-align: center;
+    overflow: visible;
+
+    
+}
+
+#messageinp {
+    background: white;
+    position: relative;
+    width: 500px;
+    height: 45px;
+    border-radius: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+#messageinp:focus,#messageinp:valid {
+    outline: none; 
+    padding-left: 15px;
+
+}
+
+
+
+
+#sendbutton {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    cursor: pointer;
+    overflow: visible;
+    margin-right: 5px;
+
+}
+
+#sendbutton:focus{
+    outline: none; 
+
+}
+
+
+.button_rectangle {
+   
+    fill: rgba(225,12,137,1);
+    overflow: visible;
+    width: 45px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+}
+#button_path {
+    fill: rgba(255,255,255,1);
+}
+.button_path {
+    overflow: visible;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 13.745px;
+    top: 13px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#send-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width:640px){
+    h1{
+        left: 15px;
+    }
+
+    .Path_111{
+        width: 40px;
+        height: 42px;
+    }
+    .Path_110{
+    width: 17px;
+    height: 18px;
+    }
+    
+    .receivemessage{
+        margin-right: 25%;
+        padding: 8px;
+    }
+
+    .mymessage{
+        padding: 8px;
+    }
+
+  
+}
+   

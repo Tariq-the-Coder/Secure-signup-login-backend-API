@@ -1,0 +1,142 @@
+body{
+    background: linear-gradient(180deg, rgba(138, 33, 243, 1) 0%, rgba(255, 102, 14, 1) 73.69%, rgba(69, 17, 122, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+* {
+   margin: auto;
+   box-sizing: border-box;
+   border: none;
+}
+
+
+div.container{
+    width: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    overflow: visible;
+  
+}
+
+
+
+h1{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24Px;
+    color: rgba(210, 226, 232, 1);
+    margin: 35px;
+    text-transform: capitalize;
+}    
+
+.myclass{
+    height: -webkit-fill-available;
+    display: grid;
+    justify-content: center
+}
+
+.myinput{
+    position: relative;
+    width: 400px;
+    height: 40px; 
+    border-radius: 24px;
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    
+}
+
+
+
+.btn{
+    background: rgb(26 115 232);
+    width: 168px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    border-radius: 24px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    overflow: visible;
+    cursor: pointer;
+    color: #f5f5f5;
+    border-style: none;
+}
+
+
+.btn:hover{
+    background-color: #1660c7;
+}
+
+
+::placeholder{
+    background-color:whitesmoke;
+    padding-left: 10px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    border-color: none;
+    color: rgb(114, 114, 114);
+}
+
+input {
+    position: relative;
+    
+    padding-left: 50px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 30px;
+    color: darkblue;
+    
+}
+
+
+input:focus {
+    outline: none; 
+   
+}
+input:valid{
+    background-color: #f5f5f5;
+}
+
+
+
+
+.material-icons{
+    transform: translate(-175px , -32px);
+    color: rgb(202 71 116);
+    
+}
+
+
+
+@media (max-width:500px){
+   
+
+   div.container{
+       margin-top: 70px;
+   }
+
+   .myinput{
+       width: 350px;
+       height: 35px;
+   }
+
+   .material-icons{
+    transform: translate(-150px , -29px);
+    color: rgb(202 71 116);
+    
+}
+
+.btn{
+    height: 35px;
+}
+
+   }
+
